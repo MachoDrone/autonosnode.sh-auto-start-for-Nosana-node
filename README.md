@@ -6,6 +6,7 @@ It will resmble operation of the node as if the user manually logged-in and ran 
 This will be 100% familiar to a novice owner/operator who may already be doing the manual tasks.
 
 To take full advantage of this script, users will need to edit the BIOS of their PC to automatically restart the PC after power is reapplied.
+
 e.g. after an outage with their mains utility/power company.
 
 Before running this script, the user will need to type the command: chmod +x autonosnode.sh
