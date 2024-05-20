@@ -1,6 +1,5 @@
 # autonosnode1.sh
-Automatically start Nosana Node on tty1 for Ubuntu Server
-For Ubuntu Desktop (GUI is already on tty1) review this repository's branch autonosnode2.sh to start Nosana node on tty2.
+Automatically start Nosana Node on tty1 for Ubuntu Server.
 
 The objective of this script is to automatically launch Nosana Node on Ubuntu Server 22.04.  
 It will resmble operation of the node as if the user manually logged-in and ran the Nosana node start script in the cli.  
@@ -12,4 +11,4 @@ To take full advantage of this script, users will need to edit the BIOS of their
 
 e.g. after an outage with their mains utility/power company.
 
-
+For Ubuntu Desktop (GUI is already on tty1) review this repository's branch autonosnode2.sh to start Nosana node on tty2. However, running Nosana node in the GUI's terminal is the best recommendation instead of tty2.
