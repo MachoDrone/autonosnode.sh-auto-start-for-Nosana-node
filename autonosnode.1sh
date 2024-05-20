@@ -1,15 +1,17 @@
 #!/bin/bash
 # Automatically start Nosana Node on tty1 for Ubuntu Server
+# For Ubuntu Desktop, the GUI is likely already on tty1, so this project has a fork named autonosnode2.sh which auto starts Nosana node on tty2.
+# Starting on tty2 may be convenient for Ubuntu Desktop, but it is highly recommended to run from a terminal in the GUI for ease of screencaptures / support.
 
 # The objective of this script is to automatically launch Nosana Node on Ubuntu Server 22.04.
 # It will resmble operation of the node as if the user manually logged-in and ran the Nosana node start script in the cli.
 # This will be 100% familiar to a novice owner/operator who may already be doing the manual tasks.
-# Before running this script, the user will need to type the command: chmod +x autonosnode.sh
+# Before running this script, the user will need to type the command: chmod +x autonosnode1.sh
 
 # To take full advantage of this script, users will need to edit the BIOS of their PC to automatically restart the PC after power is reapplied.
 # e.g. after an outage with their mains utility/power company.
 
-#./autonosnode.sh
+#./autonosnode1.sh
 # The objective of this script is to automatically launch Nosana Node on Ubuntu Server 22.04
 # It will resmble operation of the node as if the user manually logs-in and runs the Nosana start script.
 # This will be 100% familiar to a novice owner/operator who may already be doing the manual tasks.
@@ -123,7 +125,7 @@ echo .
 echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
 echo "┃                                                            ┃"
 echo "┃    Store this script. It is the Installer & Uninstaller    ┃"
-echo "┃  Both simply use the same command:  sudo ./autonosnode.sh  ┃"
+echo "┃  Both simply use the same command:  sudo ./autonosnode1.sh ┃"
 echo "┃                                                            ┃"
 echo "┃ *In your PC's BIOS, setup auto-boot when power is applied* ┃"
 echo "┃                                                            ┃"
